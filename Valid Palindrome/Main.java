@@ -24,7 +24,6 @@ class Solution {
         	newLetter ++; 
         }
          word= word.toLowerCase();
-         System.out.println(word);
     	
          String newWord = "";
          int letter  = word.length() -1;
@@ -35,8 +34,7 @@ class Solution {
          	
              letter--;
          }
-         
-         System.out.println(newWord);
+
         if (newWord.equals(word)){
             return true;
         } else {
